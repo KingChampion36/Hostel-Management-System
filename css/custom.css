@@ -1,0 +1,212 @@
+/*css of header begins here*/
+#heading-div{
+	background:black;
+	color:white;
+	margin:0px;
+}
+#heading{
+	padding:0px;
+	text-align:center;
+}
+/*css of header ends here*/
+
+
+/*css of navbar begins here */
+#nav{
+	border-radius:0px;
+	margin-bottom:0px;
+}
+
+/*css of navbar ends here*/
+
+/*css of internal sidebar begins here*/
+ul #bar{
+	background-color:white;
+}
+
+#bar{
+	height:100%;
+}
+#bar > li{
+  margin:0;
+  border-bottom:1px solid #CCC;
+}
+#bar>li> a{
+  color: black;
+  font-weight: 600;
+  text-transform: uppercase;
+  padding-top:15px;
+  padding-bottom: 15px;
+  margin-top:0px;
+}
+
+#bar>li>a:hover {
+  background-color: transparent;
+}
+#bar>li.active>a {
+  background-color: #4CAF50;
+  color: white;
+  border-radius: 0px;
+}
+/*css of internal sidebar ends here*/
+
+/*css of admin and student login page begins here */
+#psw, #uname {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+.admin-button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+}
+
+.admin-button:hover {
+    opacity: 0.8;
+}
+
+#cancelbtn {
+    width: auto;
+    padding: 10px 18px;
+    background-color: #f44336;
+}
+
+.imgcontainer {
+    text-align: center;
+    margin: 24px 0 12px 0;
+}
+
+img.avatar {
+    width: 40%;
+    border-radius: 50%;
+}
+
+#logCont {
+    padding: 16px;
+}
+
+.psw {
+    float: right;
+    padding-top: 16px;
+}
+
+/* Change styles for span and cancel button on extra small screens */
+@media screen and (max-width: 300px) {
+    #psw {
+        display: block;
+        float: none;
+    }
+    .cancelbtn {
+        width: 100%;
+    }
+}
+/*css of admin and student login ends here */
+
+/*css of footer begins here*/
+#big-footer{
+	margin-top:10px;
+}
+#foot-head1{
+	background:black;
+}
+#foot-head2{
+	background:black;
+}
+#foot-head3{
+	background:black;
+	color:white;
+}
+.foot-list{
+	list-style-type:none;
+}
+.foot-link{
+	color:white;
+}
+.foot-link:hover{
+	color:white;
+	text-decoration:none;
+}
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 70px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+  border-radius:50%;
+}
+
+.fa:hover {
+    opacity: 0.9;
+}
+
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+
+.fa-google {
+  background: #dd4b39;
+  color: white;
+}
+
+.fa-linkedin {
+  background: #007bb5;
+  color: white;
+}
+
+.fa-youtube {
+  background: #bb0000;
+  color: white;
+}
+
+.fa-instagram {
+  background: #125688;
+  color: white;
+}
+
+.fa-skype {
+  background: #00aff0;
+  color: white;
+}
+
+.fa-android {
+  background: #a4c639;
+  color: white;
+}
+
+.fa-dribbble {
+  background: #ea4c89;
+  color: white;
+}
+
+.fa-vimeo {
+  background: #45bbff;
+  color: white;
+}
+
+
+.fa-yahoo {
+  background: #430297;
+  color: white;
+}
+
+.fa-reddit {
+  background: #ff5700;
+  color: white;
+}
+/*css of footer ends here*/
